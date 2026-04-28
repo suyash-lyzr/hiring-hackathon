@@ -306,9 +306,9 @@ export default function SubmitPageClient({ user }: Props) {
                 </p>
 
                 <div className="form-group">
-                  <label className="form-label" htmlFor="demo_url">Live Demo URL *</label>
+                  <label className="form-label" htmlFor="demo_url">Deployed App URL *</label>
                   <input id="demo_url" name="demo_url" type="url" className="form-input" value={form.demo_url} onChange={e => set('demo_url', e.target.value)} placeholder="https://your-app.vercel.app" required />
-                  <div className="form-hint">A public URL where a judge can prompt your builder and watch a real E2B app stream live.</div>
+                  <div className="form-hint">The public URL where your app is deployed. A judge should be able to open it, type a prompt, and watch the E2B build stream live.</div>
                 </div>
 
                 <div className="form-group">
