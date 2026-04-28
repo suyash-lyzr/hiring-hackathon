@@ -160,7 +160,7 @@ export default function SubmitPageClient({ user }: Props) {
           </p>
         </div>
 
-        <div style={{ background: 'var(--parch)', border: '1px solid rgba(42,28,24,.1)', borderRadius: 'var(--rXL)', padding: '40px 40px', position: 'relative', overflow: 'hidden' }}>
+        <div style={{ background: 'var(--parch)', border: '1px solid rgba(42,28,24,.1)', borderRadius: 'var(--rXL)', padding: '44px 44px', position: 'relative', overflow: 'hidden' }}>
           <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: 3, background: 'linear-gradient(90deg,var(--primary),var(--rose))' }} />
 
           {success ? (
@@ -258,7 +258,7 @@ export default function SubmitPageClient({ user }: Props) {
 
                 <div className="form-group" style={{ marginBottom: 0 }}>
                   <label className="form-label">Have you worked in a startup or non-profit startup before?</label>
-                  <div className="sf-radio-group">
+                  <div className="sf-radio-group" style={{ marginTop: 10 }}>
                     {(['yes', 'no'] as const).map(v => (
                       <label key={v} className={`sf-radio${form.worked_in_startup === v ? ' checked' : ''}`}>
                         <input type="radio" name="worked_in_startup" value={v} checked={form.worked_in_startup === v} onChange={() => set('worked_in_startup', v)} />
@@ -301,7 +301,7 @@ export default function SubmitPageClient({ user }: Props) {
               {/* ── SECTION 3: PROJECT SUBMISSION ── */}
               <div className="sf-section">
                 <div className="sf-section-title">Section 3 — Project Submission</div>
-                <p style={{ fontSize: 13, color: 'rgba(26,17,14,.5)', fontFamily: 'var(--font-body)', marginBottom: 24, lineHeight: 1.7 }}>
+                <p style={{ fontSize: 13, color: 'rgba(26,17,14,.5)', fontFamily: 'var(--font-body)', marginBottom: 28, lineHeight: 1.7 }}>
                   All four fields are required. Incomplete submissions won&apos;t be reviewed.
                 </p>
 
