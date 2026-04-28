@@ -107,7 +107,7 @@ export default function Hero({ user }: HeroProps) {
                 <rect x="3" y="11" width="18" height="11" rx="2" />
                 <path d="M7 11V7a5 5 0 0110 0v4" />
               </svg>
-              Sign in with Google to register and unlock the full problem statement
+              Sign in with Google to register — problem statement is hidden until you log in
             </p>
           )}
           <div className="h-metrics">

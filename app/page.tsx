@@ -194,6 +194,13 @@ function BriefSection() {
             <p className="stmt-body" style={{ marginTop: 16 }}>
               Streams builds live: files, installs, server startup, preview iframe — the second a user hits enter.
             </p>
+            <div className="stmt-lock-note rv up d3">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="13" height="13" style={{ flexShrink: 0 }}>
+                <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
+                <path d="M7 11V7a5 5 0 0110 0v4" />
+              </svg>
+              Full problem statement unlocks after sign-in — scroll down to register.
+            </div>
           </div>
         </div>
         <div className="stmt-strip">
@@ -252,6 +259,13 @@ function CapabilitiesSection() {
           <p className="rv up d3" style={{ fontSize: 14, color: 'rgba(26,17,14,.55)', lineHeight: 1.9, maxWidth: 500, fontFamily: 'var(--font-body)' }}>
             Your submission is judged across these four layers. Click to expand each.
           </p>
+          <div className="stmt-lock-note rv fade d4" style={{ marginTop: 20 }}>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="13" height="13" style={{ flexShrink: 0 }}>
+              <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
+              <path d="M7 11V7a5 5 0 0110 0v4" />
+            </svg>
+            Sign in to unlock the full problem statement and detailed requirements.
+          </div>
         </div>
       </div>
       <div style={{ marginTop: 48 }} id="caps-accordion">

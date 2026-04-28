@@ -191,6 +191,7 @@ img{max-width:100%;height:auto;display:block}
 .stmt-rule{width:32px;height:2px;background:var(--primary);border-radius:9999px}
 .stmt-body{font-size:16px;color:rgba(26,17,14,.58);line-height:1.85}
 .stmt-body strong{color:var(--fg);font-weight:600}
+.stmt-lock-note{display:flex;align-items:center;gap:7px;margin-top:20px;font-size:12px;color:rgba(26,17,14,.5);font-family:var(--font-body);letter-spacing:.01em}
 /* 4-cell strip */
 .stmt-strip{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:72px;position:relative;z-index:1}
 .ssc{background:var(--parch);border:1px solid rgba(42,28,24,.08);border-radius:var(--rL);padding:26px 22px;transition:all .4s var(--out)}
